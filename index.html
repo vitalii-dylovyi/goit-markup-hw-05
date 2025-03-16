@@ -423,7 +423,7 @@
                 type="email"
                 placeholder="E-mail"
                 name="subscribe-email"
-                class="subscibe-input"
+                class="subscribe-input"
               />
             </label>
             <button type="submit" class="footer-subscribe-btn">
@@ -459,9 +459,9 @@
           </div>
 
           <div class="contact-form-field">
-            <label class="contact-label">Phone</label>
+            <label for="user-phone" class="contact-label">Phone</label>
             <div class="contact-form-input-container">
-              <input type="tel" name="user-phone" class="contact-input" />
+              <input id="user-phone" type="tel" name="user-phone" class="contact-input" />
               <svg width="18" height="24" class="contact-field-icon">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
@@ -469,9 +469,14 @@
           </div>
 
           <div class="contact-form-field">
-            <label class="contact-label">Email</label>
+            <label for="user-email" class="contact-label">Email</label>
             <div class="contact-form-input-container">
-              <input type="email" name="user-email" class="contact-input" />
+              <input
+                id="user-email"
+                type="email"
+                name="user-email"
+                class="contact-input"
+              />
               <svg width="18" height="24" class="contact-field-icon">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>

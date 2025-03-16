@@ -481,7 +481,7 @@ h3 {
   border: 1px solid var(--modal-overlay);
 }
 
-.contact-input[type='text'] {
+.contact-input:not([type='checkbox']) {
   height: 40px;
   width: 360px;
   display: block;

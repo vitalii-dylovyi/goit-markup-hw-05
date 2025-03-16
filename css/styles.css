@@ -480,6 +480,7 @@ h3 {
 .subscribe-input {
   height: 40px;
   width: 264px;
+  outline: none;
   line-height: 2;
   font-size: 12px;
   padding: 8px 16px;
@@ -684,7 +685,7 @@ textarea.contact-input {
   padding-left: 38px;
 }
 
-.contact-input[type='checkobx']:checked + .contact-label .contact-checkbox {
+input[type='checkbox']:checked + .contact-label > .contact-checkbox {
   border: none;
   fill: var(--light-color);
   background-color: var(--pressed-state);

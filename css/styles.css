@@ -8,7 +8,7 @@
   --pressed-state: #404bbf;
   --subtle-text: #8e8f99;
   --success-color: #31d0aa;
-  --modal-overlay: #2e2f4240;
+  --modal-overlay: rgba(46, 47, 66, 0.4);
   --modal-bg: #fcfcfc;
 }
 
@@ -480,6 +480,8 @@ h3 {
 .subscribe-input {
   height: 40px;
   width: 264px;
+  line-height: 2;
+  font-size: 12px;
   padding: 8px 16px;
   border-radius: 4px;
   margin-right: 24px;
@@ -490,9 +492,6 @@ h3 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .subscribe-input::placeholder {
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.03em;
   color: var(--white-bg-color);
 }
 
@@ -501,6 +500,7 @@ h3 {
   height: 40px;
   display: flex;
   font-size: 16px;
+  line-height: 1.5;
   font-weight: 500;
   min-width: 165px;
   padding: 8px 24px;
@@ -561,6 +561,7 @@ h3 {
 }
 
 .order-modal {
+  width: 408px;
   display: flex;
   flex-direction: column;
   padding: 72px 24px 24px 24px;
@@ -700,7 +701,7 @@ textarea.contact-input {
   border-color: var(--primary-color);
 }
 
-.contact-privacy-checkbox {
+.contact-checkbox {
   width: 16px;
   height: 16px;
   fill: transparent;
@@ -728,15 +729,12 @@ textarea.contact-input {
   padding: 16px 32px;
   border-radius: 4px;
   color: var(--white-bg-color);
-  background-color: var(--primary-color);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.contact-submit-btn span {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-family: 'Roboto', sans-serif;
+  background-color: var(--primary-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

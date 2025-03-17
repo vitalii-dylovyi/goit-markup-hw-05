@@ -516,6 +516,7 @@ h3 {
 
 .subscribe-icon {
   margin-left: 16px;
+  fill: var(--white-bg-color);
 }
 
 .modal-overlay {
@@ -603,7 +604,6 @@ h3 {
 
 .contact-form {
   display: flex;
-  margin-top: 24px;
   flex-direction: column;
 }
 
